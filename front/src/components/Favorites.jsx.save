@@ -1,0 +1,30 @@
+import React from 'react';
+import {connect} from 'react-redux';
+import styles from './favorites.module.css';
+
+export function Favorites({myFavorites}){
+	return (<div>
+		{myFavorites.map((ch)=>{
+			return(
+				<div className={styles.card}>
+				<div className={styles.data}>
+				<img src={ch.image} alt={ch.name} className={styles.img}/>
+				<ul className={styles.list}>
+					<li><b>Name:</b> {ch.name}</li>
+					<li><b>Specie:</b> {ch.species}</li>
+					<li><b>Gender:</b> {ch.gender}</li>
+				</ul>
+				</div>
+				<button className={styles.closeBtn}>X</button>
+				</div>
+				)
+			})}
+		</div>)
+	}
+function mapStateToProps(state){
+	return {
+		myFavorites:state.myFavorites
+		}	
+	}
+
+export default connect(mapStateToProps,null)(Favorites)

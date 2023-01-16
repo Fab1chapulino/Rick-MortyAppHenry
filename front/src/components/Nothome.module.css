@@ -1,0 +1,39 @@
+.detail{
+color:white;
+font-family:Times New Roman;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding-top:50px;
+}
+.img{
+width:50%;
+border:solid red 5px;
+}
+.data{
+list-style-type:none;
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+padding:0;
+margin:50px 0 0 0;
+width:50%;
+font-size:30px;
+}
+.data span{
+font-size:40px;
+}
+.About{
+color:white;
+font-family:Times New Roman;
+}
+.About h1{
+font-size:40px;
+}
+.text{
+text-align:left;
+margin:25px 10px 0 10px;
+}
+.text ul{
+list-style-type:none;
+}

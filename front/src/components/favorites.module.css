@@ -1,0 +1,32 @@
+.card{
+	border:solid black 4px;
+	display:inline-block;
+	background:white;
+	margin:3% 3%;
+	padding:0;
+	position:relative;
+	}
+.data{
+display:inline-block;
+}
+.closeBtn{
+	background:red;
+	position:absolute;
+	}
+.img{
+	border-bottom:solid black 2px;
+	}
+.list{
+list-style-type:none;
+margin:0;
+padding:0;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.Filter{
+margin:15px 0;
+background:white;
+border-radius:5px;
+font-weight:bold;
+}

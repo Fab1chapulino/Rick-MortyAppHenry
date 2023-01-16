@@ -1,0 +1,92 @@
+body{
+background-image:url(https://i.blogs.es/5c3040/5519580228_92fe8abae5_o/1366_2000.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+font-family:Times New Roman;
+}
+.Contenetor{
+display:inline-block;
+margin:3% 3%;
+}
+.cards{
+	border:solid black 2px;
+	background:white;
+	display:inline-block;
+	position:relative;
+	padding:0;
+	margin: 3% 3%;
+}
+.cards img{
+border-bottom:solid black 2px;
+}
+.data{
+display:inline-block;
+}
+.list{
+list-style-type:none;
+margin:0;
+padding:0;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+.list li{
+margin:4px 0;
+}
+.buttons{
+position:absolute;
+display:inline-block;
+}
+.btnClose{
+background-color:red;
+border:solid 3px black;
+}
+.btnFavorite{
+	border:solid 3px black;
+	}
+.btnNotFav{
+font-weight:bold;
+}
+.Searchbar{
+display:inline-block;
+margin-top:25px;
+margin-right:25px;
+}
+.Searchbar input{
+border-radius:15px;
+}
+.btnSearch{
+border-radius:15px;
+border:solid black 2px;
+background:#0af24f;
+display:inline-block;
+}
+.Nav{
+background:#e33033;
+display:flex;
+justify-content:space-between;
+padding:0;
+}
+.link{
+text-decoration:none;
+color:white;
+font-size:large;
+border-right:solid white;
+padding:5% 10px 0 10px;
+}
+.link:active{
+text-decoration:underline;
+}
+.linkClick{
+background:#a30202;
+text-decoration:none;
+color:white;
+font-size:large;
+border-right:solid white;
+padding:5% 10px 0 25px;
+}
+.Navlinks{
+display:flex;
+margin:0;
+}
